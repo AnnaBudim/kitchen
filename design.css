@@ -1,0 +1,372 @@
+ul li {
+    display: inline;
+    position: relative;
+    font-family: sans-serif;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    text-align: center;
+    opacity: 0.5;
+    padding: 20px 40px 20px 20px;
+    top: -600px;
+    left: 645px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.banner,
+.frame {
+    width: 1340px;
+    height: 600px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.flavor {
+    text-align: center;
+    margin-top: -400px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.combination {
+    text-align: center;
+    margin-top: -25px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    text-shadow: 1px 1px 2px black;
+}
+
+.traditional {
+    text-align: center;
+    margin-top: -35px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.contactbutton .contactbuttoninp {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    opacity: 0.7;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 570px;
+    width: 200px;
+    height: 50px;
+    font-family: sans-serif;
+}
+
+.deal {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+.dealstars {
+    width: 100px;
+    height: 20px;
+    margin-left: 185px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.dealtext {
+    margin-left: 150px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.menubutton {
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: -80px;
+    margin-left: 185px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #7a163c;
+    color: white;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.lilnachos {
+    position: relative;
+    margin-left: 500px;
+    margin-bottom: 40px;
+    margin-top: -150px;
+    width: 300px;
+    height: 200px;
+}
+
+.lilpozola {
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    margin-top: -150px;
+    width: 300px;
+    height: 200px;
+}
+
+.foodmex {
+    position: relative;
+    margin-left: -10px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    width: 1340px;
+    height: 500px;
+}
+
+.fresh,
+.delisious {
+    position: absolute;
+    text-align: center;
+    margin-top: -430px;
+    margin-left: 300px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.freshsocial,
+.delsocial {
+    position: absolute;
+    margin-top: -360px;
+    margin-left: 500px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+}
+
+#about {
+    margin-left: 150px;
+    font-family: sans-serif;
+    color: black;
+}
+
+blockquote,
+cite,
+.share {
+    margin-left: 150px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.share {
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+    margin-top: 80px;
+}
+
+.bur {
+    position: relative;
+    margin-left: 800px;
+    margin-bottom: 10px;
+    margin-top: -265px;
+    width: 400px;
+    height: 300px;
+}
+
+.gasp {
+    position: relative;
+    margin-left: -10px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    width: 1340px;
+    height: 700px;
+}
+
+.delisious {
+    margin-left: 400px;
+}
+
+#menu,
+#gallery,
+#location,
+#contacts {
+    text-align: center;
+    color: #7a163c;
+    font-family: sans-serif;
+    margin-top: -20px;
+}
+
+.starsmenu {
+    width: 100px;
+    height: 20px;
+    margin-left: 620px;
+    margin-top: -10px;
+}
+
+th {
+    color: #7a163c;
+    margin-top: 10px;
+}
+
+table {
+    font-family: sans-serif;
+    width: 950px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.galbackground {
+    opacity: 0.4;
+    width: 1360px;
+    height: 1100px;
+    margin-top: -90px;
+    margin-left: -50px;
+}
+
+#gallery,
+#location,
+#contacts {
+    position: relative;
+    margin-top: 40px;
+}
+
+.galstars,
+.locstars,
+.contstars,
+.sostars {
+    position: relative;
+    width: 100px;
+    height: 20px;
+    margin-left: 620px;
+    margin-top: -10px;
+}
+
+.firstrow {
+    position: relative;
+    margin-top: -980px;
+    margin-left: 200px;
+}
+
+.thirdrow,
+.secondrow {
+    position: relative;
+    margin-left: 200px;
+}
+
+.adress {
+    position: relative;
+    margin-left: 580px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: darkgray;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.formbackground,
+.sendform {
+    position: relative;
+    margin-top: 20px;
+    opacity: 0.4;
+    margin-left: 400px;
+    margin-bottom: -60px;
+}
+
+.sendform {
+    margin-top: -400px;
+    opacity: 1.4;
+    font-family: sans-serif;
+    padding: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.secondfooter {
+    position: relative;
+    margin-top: -90px;
+    width: 1360px;
+    margin-left: -10px;
+    opacity: 0.3;
+}
+
+.firstfooter {
+    position: relative;
+    margin-top: -5px;
+    width: 1360px;
+    margin-left: -10px;
+    opacity: 0.6;
+    height: 150px;
+}
+
+.icons {
+    position: relative;
+    margin-left: 400px;
+    margin-top: -170px;
+}
+
+#social {
+    text-align: center;
+    color: #7a163c;
+    font-family: sans-serif;
+    position: inherit;
+    margin-top: 170px;
+    opacity: 1.5;
+}
+
+.firstname,
+.secondname,
+.secondname2,
+.firstname1,
+.email,
+.yourtext {
+    margin-bottom: 30px;
+}
+
+.secondname2 {
+    margin-left: 25px;
+    width: 350px;
+    height: 30px;
+}
+
+.firstname1 {
+    width: 350px;
+    height: 30px;
+    margin-left: 45px;
+}
+
+.email1 {
+    width: 350px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.yourtext1 {
+    margin-top: 30px;
+    margin-left: 55px;
+    width: 350px;
+    height: 100px;
+}
+
+.sendbutton {
+    margin-left: 180px;
+    width: 150px;
+    height: 30px;
+    margin-top: 25px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
