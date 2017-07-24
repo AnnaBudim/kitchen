@@ -18,12 +18,25 @@ ul li {
     background-color: white;
     text-align: center;
     opacity: 0.5;
-    padding: 20px 40px 20px 20px;
+    padding: 25px 35px 25px 40px;
     top: -600px;
-    left: 645px;
+    left: 625px;
     font-weight: bold;
+    margin-left: -4.5px;
 }
-
+nav a:hover {
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    background-color: #7a163c;
+    text-align: center;
+    opacity: 0.7;
+    padding: 25px 35px 25px 40px;
+    top: -600px;
+    left: 600px;
+    font-weight: bold;
+    margin-left: -42px;
+}
 a {
     text-decoration: none;
 }
@@ -90,9 +103,9 @@ a {
 .dealstars {
     width: 100px;
     height: 20px;
-    margin-left: 185px;
+    margin-left: 175px;
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 1px;
 }
 
 .dealtext {
@@ -226,8 +239,8 @@ cite,
 .starsmenu {
     width: 100px;
     height: 20px;
-    margin-left: 620px;
-    margin-top: -10px;
+    margin-left: 600px;
+    margin-top: -15px;
     font-size: 20px;
 }
 
@@ -245,10 +258,10 @@ table {
 
 .galbackground {
     opacity: 0.4;
-    width: 1360px;
+    width: 1338px;
     height: 1100px;
     margin-top: -90px;
-    margin-left: -50px;
+    margin-left: -10px;
 }
 
 #gallery,
@@ -266,7 +279,7 @@ table {
     position: relative;
     width: 100px;
     height: 20px;
-    margin-left: 620px;
+    margin-left: 600px;
     margin-top: -10px;
 }
 
@@ -284,19 +297,20 @@ table {
 
 .adress {
     position: relative;
-    margin-left: 580px;
+    margin-left: 560px;
     margin-top: 10px;
     font-family: sans-serif;
     color: darkgray;
     font-weight: lighter;
     font-style: italic;
+    font-size: 20px;
 }
 
 .formbackground,
 .sendform {
     position: relative;
     margin-top: 20px;
-    opacity: 0.4;
+    opacity: 0.5;
     margin-left: 400px;
     margin-bottom: -60px;
 }
@@ -323,7 +337,7 @@ table {
     margin-top: -5px;
     width: 1330px;
     margin-left: -10px;
-    opacity: 0.6;
+    opacity: 0.9;
     height: 150px;
 }
 
