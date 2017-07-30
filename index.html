@@ -8,157 +8,157 @@
     <link rel="stylesheet" href="design.css">
 </head>
 <body>
-     <header>
-        <img src="img/banner.jpg" alt="Mexican food" class="banner" id="banner">
+    <div style="display:none;" class="nav_down" id="nav_down"></div>
+    <div id="content" class="content"><header>
+     <div class="site-menu">
+        <ul class="site-menu-ul">
+            <li class="site-menu-li"><a href="#banner">HOME</a></li>
+            <li class="site-menu-li"><a href="#about">ABOUT US</a></li>
+            <li class="site-menu-li"><a href="#gallery">GALLERY</a></li>
+            <li class="site-menu-li"><a href="#menu">MENU</a></li>
+            <li class="site-menu-li"><a href="#contacts">CONTACTS</a></li>
+        </ul>
+    </div>
     </header>
     <main>
-        <nav>
-            <ul>
-                <li><a href="#banner">HOME</a></li>
-                <li><a href="#about">ABOUT US</a></li>
-                <li><a href="#gallery">GALLERY</a></li>
-                <li><a href="#menu">MENU</a></li>
-                <li><a href="#contacts">CONTACTS</a></li>
-            </ul>
-            <h2 class="flavor">SURPRISSING FLAVOR</h2>
-            <p class="combination">COMBINATIONS</p>
-            <h4 class="traditional">Traditional cooking with a modern twist</h4>
-            <form action="https://formspree.io/20Anna08@ukr.net" method="POST" enctype="multipart/form-data" class="contactbutton">
-                <input type="submit" value="CONTACT US" class="contactbuttoninp">
-            </form>
+        <nav id="banner">
+            <div class="bannerfont">
+                <h2 class="flavor">SURPRISSING FLAVOR &nbsp;</h2>
+                <p class="combination">COMBINATIONS</p>
+                <h4 class="traditional">Traditional cooking with a modern twist</h4>
+                <a href="#contacts"><p class="contactbutton">CONTACT US</p></a>
+            </div>
         </nav>
-        <article>
-            <h3 class="deal">TODAY’S DEAL</h3>
-            <img src="img/fivestars.png" alt="five stars" class="dealstars"/>
+        <article class="block2">
+           <div class="deal"> 
+                <h3>TODAY’S DEAL</h3>
+                <img src="img/fivestars.png" alt="five stars" class="dealstars"/>
+            </div>
             <p class="dealtext">10% off on all orders over 100₴<br>from our lunch menu.</p>
-            <img src="img/nachos.jpg" alt="nachos" class="lilnachos"/>
-            <img src="img/pozola.jpg" alt="pozola" class="lilpozola"/>
+            <div class="block2-pic">
+                <img src="img/nachos.jpg" alt="nachos" class="lilnachos"/>
+                <img src="img/pozola.jpg" alt="pozola" class="lilpozola"/>
+            </div>
             <a href="#menu"><p class="menubutton">MENU</p></a>
             </article>
-        <article>
-            <img src="img/block2food.jpg" alt="mexican food preperation" class="foodmex"/>
-            <h3 class="fresh">LOCALLY SOURCED ONLY FRESH INGREDIENTS</h3>
-            <p class="freshsocial">Share on:<a href="http://facebook.com"> Facebook </a>/ <a href="http://twitter.com">Twitter</a></p>
+        <article class="block3">
+            <div class="fresh">
+                <h3>LOCALLY SOURCED ONLY FRESH INGREDIENTS</h3>
+                <p class="freshsocial">Share on:<a href="http://facebook.com"> Facebook </a>/ <a href="http://twitter.com">Twitter</a></p>
+            </div>
         </article>
-        <article>
+        <article class="block4">
             <h5 id="about">WE ARE THE BEST QUALITY AND TRADITIONAL<br> RESTAURANT OF MEXICAN CITCHEN</h5>
-            <blockquote>"Mexican food is so full of color, life and music.<br>It's like the pinata exploding in your mouth..."
-            </blockquote>
-            <cite>Kate McLennan</cite>
+            <div class="quote">
+                <blockquote>"Mexican food is so full of color, life and music.<br>It's like the pinata exploding in your mouth..."
+                </blockquote>
+                <cite>Kate McLennan</cite>
+            </div>
             <p class="share">Share on:<a href="http://facebook.com"> Facebook </a>/ <a href="http://twitter.com">Twitter</a></p>
-            <img src="img/burito.jpg" alt="burito" class="bur"/>
+            <div class="bur">
+                <img src="img/burito.jpg" alt="burito" class="bur"/>
+            </div>
         </article>
-        <article>
-            <img src="img/gaspachoback.jpg" alt="gaspacho" class="gasp"/>
-            <h2 class="delisious">WE ARE DELICIOUS RESTAURANT</h2>
-            <p class="delsocial">Share on:<a href="http://facebook.com"> Facebook </a>/ <a href="http://twitter.com">Twitter</a></p>
+        <article class="block5">
+            <div class="delisious">
+                <h2>WE ARE DELICIOUS RESTAURANT</h2>
+                <p class="delsocial">Share on:<a href="http://facebook.com"> Facebook </a>/ <a href="http://twitter.com">Twitter</a></p>
+            </div>
         </article>
-        <article>
-            <h3 id="menu">MENU</h3>
-            <img src="img/fivestars.png" alt="five stars" class="starsmenu"/>
-            <table>
-                <tr style="border:1px solid black;">
-                   <th>STARTER</th> 
-                   <th>PRICE</th> 
-                   <th>MAINS</th> 
-                   <th>PRICE</th>  
-                </tr>
-                <tr>
-                    <td><b>Caesar Roll</b></td> 
-                    <td></td> 
-                    <td><b>Tacos</b></td> 
-                    <td></td> 
-                </tr>
-                <tr>
-                   <td><i>Salad with chicken, grilled in Mexican format, served with fries-potato.</i></td> 
-                   <td>57₴</td> 
-                   <td><i>A traditional Mexican dish with veal, red beans and "Pika" sauce. Traditionally served in a corn tortilla.</i></td> 
-                   <td>95₴</td> 
-                </tr>
-                <tr>
-                   <td><b>Cactus Salad</b></td>
-                   <td></td>
-                   <td><b>Gazpacho</b></td>
-                   <td></td>
-                </tr>
-                <tr>
-                    <td><i>Marinated cactus, veal fillet, mushrooms and potatoes with chef's sauce.</i></td>
-                    <td>85₴</td>
-                    <td><i>Cold soup with tomatoes, bell pepper, garnished with olives, eggs and fresh cucumbers.</i></td>
-                    <td>105₴</td>
-                </tr>
-                <tr>
-                    <td><b>Nachos</b></td>
-                    <td></td>
-                    <td><b>Pozola</b></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td><i>Corn chips with guacomolee sauce and tomato salsa.</i></td>
-                    <td>46₴</td>
-                    <td><i>Baked pork with green beans, peppers and tomatoes.</i></td>
-                    <td>115₴</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td><b>Burrito</b></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td><i>Grilled chicken with beans in a Mexican tortilla. Served with sauce "Peak", "Chile" and sour cream.</i></td>
-                    <td>97₴</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td><b>Fajito</b></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td><i>Classics of Mexican cuisine. Hot pan with grilled vegetables and meat.</i></td>
-                    <td>120₴</td>
-                </tr>
-            </table>
+        <article class="block6">
+            <div class="menu"><h3 id="menu">MENU</h3>
+            <img src="img/fivestars.png" alt="five stars" class="starsmenu"/> </div>
+            <div class="table">
+                <table>
+                    <tr style="border:1px solid black;">
+                       <th>STARTER</th> 
+                       <th>PRICE</th> 
+                       <th>MAINS</th> 
+                       <th>PRICE</th>  
+                    </tr>
+                    <tr>
+                        <td><b>Caesar Roll</b></td> 
+                        <td></td> 
+                        <td><b>Tacos</b></td> 
+                        <td></td> 
+                    </tr>
+                    <tr>
+                       <td><i>Salad with chicken, grilled in Mexican format, served with fries-potato.</i></td> 
+                       <td>57₴</td> 
+                       <td><i>A traditional Mexican dish with veal, red beans and "Pika" sauce. Traditionally served in a corn tortilla.</i></td> 
+                       <td>95₴</td> 
+                    </tr>
+                    <tr>
+                       <td><b>Cactus Salad</b></td>
+                       <td></td>
+                       <td><b>Gazpacho</b></td>
+                       <td></td>
+                    </tr>
+                    <tr>
+                        <td><i>Marinated cactus, veal fillet, mushrooms and potatoes with chef's sauce.</i></td>
+                        <td>85₴</td>
+                        <td><i>Cold soup with tomatoes, bell pepper, garnished with olives, eggs and fresh cucumbers.</i></td>
+                        <td>105₴</td>
+                    </tr>
+                    <tr>
+                        <td><b>Nachos</b></td>
+                        <td></td>
+                        <td><b>Pozola</b></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><i>Corn chips with guacomolee sauce and tomato salsa.</i></td>
+                        <td>46₴</td>
+                        <td><i>Baked pork with green beans, peppers and tomatoes.</i></td>
+                        <td>115₴</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><b>Burrito</b></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><i>Grilled chicken with beans in a Mexican tortilla. Served with sauce "Peak", "Chile" and sour cream.</i></td>
+                        <td>97₴</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><b>Fajito</b></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><i>Classics of Mexican cuisine. Hot pan with grilled vegetables and meat.</i></td>
+                        <td>120₴</td>
+                    </tr>
+                </table>
+            </<div>
         </article>
-        <article>
-            <h4 id="gallery">OUR GALLERY</h4>
-            <img src="img/fivestars.png" alt="five stars" class="galstars"/>
-                <img src="img/gallery.jpg" alt="gallery background" class="galbackground"/>
-            <figure class="firstrow">
-                <img src="img/cisar.png" alt="cisar roll" width="300" height="300"/>
-                <img src="img/salad.jpg" alt="salad" width="300" height="300"/>
-                <img src="img/nachos.jpg" alt="nachos" width="300" height="300"/>
-            </figure>
-            <figure class="secondrow">
-                <img src="img/gaspacho.jpg" alt="gaspacho" width="300" height="300"/>
-                <img src="img/pozola.jpg" alt="pozola" width="300" height="300"/>
-                <img src="img/taco.jpg" alt="taco" width="300" height="300"/>
-            </figure>
-            <figure class="thirdrow">
-                <img src="img/burito.jpg" alt="burito" width="300" height="300"/>
-                <img src="img/fachito.jpg" alt="fachito" width="300" height="300"/>
-            </figure>
+        <article class="block7">
+            <div class="gallery"><h4 id="gallery">OUR GALLERY</h4>
+            <img src="img/fivestars.png" alt="five stars" class="galstars"/></div>
+            <img src="img/cisar.png" alt="cisar roll" class="firstrow"/>
         </article>
-        <article>
-            <h3 id="location">OUR LOCATION</h3>
+        <article class="block8">
+            <div class="location"><h3>OUR LOCATION</h3>
             <img src="img/fivestars.png" alt="five stars" class="locstars"/>
-            <p class="adress">Lviv, Bandery street, 28</p>
+            <p class="adress">Lviv, Bandery street, 28</p></div>
             <iframe class="frame" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5146.828301320999!2d24.0100945!3d49.8346753!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add799fb83c41%3A0xe4f50a6accc5c42a!2sStepana+Bandery+St%2C+L&#39;viv%2C+Lviv+Oblast!5e0!3m2!1sen!2sua!4v1500585072593" width="380" height="450" style="border:0" allowfullscreen></iframe>
         </article>
-        <article>
-            <h3 id="contacts">CONTACT US</h3> 
-            <img src="img/fivestars.png" alt="five stars" class="contstars"/><br>
-            <img src="img/form.jpg" alt="form background" class="formbackground"/><br>
-            <form action="https://formspree.io/20Anna08@ukr.net" method="POST" enctype="multipart/form-data" class="sendform">
+        <article class="block9">
+            <div class="contacts"><h3 id="contacts">CONTACT US</h3> 
+            <img src="img/fivestars.png" alt="five stars" class="contstars"/><br></div>
+            <div class="sendform">
+            <form action="https://formspree.io/20Anna08@ukr.net" method="POST" enctype="multipart/form-data">
                 <label class="firstname">FIRST NAME:  
                     <input type="text" name="name" required class="firstname1"></label><br>
                 <label class="secondname">SECOND NAME:
-                    <input type="text" name="name" required class="secondname2"></label><br>
+                    <input type="text" name="name" required class="secondname1"></label><br>
                 <label class="email">E-MAIL ADRESS:
                     <input type="text" name="name" required class="email1"></label><br>
                 <label class="yourtext">YOUR TEXT:
@@ -166,19 +166,20 @@
                 </label><br>
                 <label>
                     <input type="submit" value="Send" class="sendbutton"></label>
-            </form>
+            </form></div>
         </article>
     </main>
     <footer>
-        <h1 id="social">WE IN SOCIAL NETWORKS</h1>
+        <div class="social"><h1>WE IN SOCIAL NETWORKS</h1>
         <img src="img/fivestars.png" alt="five stars" class="sostars"/><br>
-        <img src="img/footertwo.jpg" alt="second footer" class="secondfooter"/>
-        <img src="img/footerone.jpg" alt="first footer" class="firstfooter"/>
+        </div>
         <figure class="icons">
             <a href="http://facebook.com" target="_blank"><img src="img/facebook.png" alt="facebook"/></a>
             <a href="http://instagram.com" target="_blank"><img src="img/instagram.png" alt="instagram"/></a>
             <a href="http://twitter.com" target="_blank"><img src="img/twitter.png" alt="twitter"/></a>
         </figure>
-    </footer>
-</body>
+    </footer></div>
+    <div style="display:none;" class="nav_up" id="nav_up"></div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script src="scroll-startstop.events.jquery.js" type="text/javascript"></script>
 </html>
