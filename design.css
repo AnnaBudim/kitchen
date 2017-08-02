@@ -532,34 +532,31 @@ footer{
     height: 250px;
     
 }
-
 .social {
     position: absolute;
     left: 35%;
     font-size: 1rem;
     color: #7a163c;
 }
-
 .sostars {
     position: absolute;
     width: 30%;
     transform: translateY(-70%);
     left: 35%;
 }
-
 .icons {
     position: absolute;
     left: 30%;
     transform: translateY(30%);
 }
-
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 360px) {
 header{
     background-image: url("img/banner.jpg");
     background-position: center;
     background-size: cover;
+    overflow: hidden;
     width: 100%;
-    height: 400px;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -575,17 +572,17 @@ nav{
     
 }
 body {
-    max-width: 1500px;
+    max-width: 360px;
     margin: 0 auto;
     font-family: sans-serif;
-    font-size: 0.675em;
-    
+    font-size: 0.7em;
+
 }
 .site-menu{
     background-color: white;
     opacity: 0.7;
     width: 100%;
-    margin-top: -322px;
+    margin-top: -230px;
     font-weight: bold;
 }
 .site-menu-ul{
@@ -599,10 +596,10 @@ body {
 }
 .site-menu-li a{
     text-decoration: none;
-    font-size: 14px;
+    font-size: 10px;
     color: #7a163c;
     position: relative;
-    padding: 5px;
+    padding: 0px;
 }
 .site-menu-li a::before{
     opacity: 1.7;
@@ -659,39 +656,40 @@ a {
     color: white;
     font-family: sans-serif;
     text-shadow: 1px 1px 2px black;
-    margin-top: -510px;
+    margin-top: -410px;
 }
 .flavor {
     position: absolute;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     transform: translateY(580%);
-    left: 28%;
+    left: 10%;
 }
 .combination {
     position: absolute;
-    font-size: 2.6rem;
+    font-size: 2.1rem;
     font-style: italic;
     font-weight: bold;
-    left: 27%;
-    transform: translateY(410%);
+    left: 8%;
+    transform: translateY(440%);
 }
 .traditional {
-    left: 25%;
+    left: 6%;
     position: absolute;
-    font-size: 1.2rem;
-    transform: translateY(1100%);
+    font-size: 0.9rem;
+    transform: translateY(1300%);
 }
 .contactbutton {
     color: black;
     text-decoration: none;
     background-color: white;
-    opacity: 0.6;
+    opacity: 0.8;
     font-weight: bold;
-    padding: 15px;
-    transform: translateY(850%); 
+    padding: 12px;
+    transform: translateY(800%); 
     width: 80%;
     height: 30%;
     text-shadow: none;
+   
 }
 
 /*BLOCK 2*/
@@ -700,15 +698,16 @@ a {
     position: relative;
     width: 100%;
     flex-wrap: wrap;
+    height: 300px;
 }
 .deal {
     position: absolute;
     font-family: sans-serif;
     font-weight: bold;
     color: black;
-    font-size: 1.8rem;
-    left: 35%;
-    transform: translateY(17%);
+    font-size: 1.2rem;
+    left: 28%;
+    transform: translateY(10%);
 }
 .dealstars {
     position: absolute;
@@ -721,8 +720,8 @@ a {
     position: absolute;
     font-family: sans-serif;
     color: black;
-    left: 27%;
-    transform: translateY(220%);
+    left: 10%;
+    transform: translateY(160%);
     font-size: 1.2rem;
 }
 .menubutton {
@@ -735,21 +734,22 @@ a {
     height: 20px;
     text-align: center;
     padding: 10px;
-    left: 45%;
-    transform: translateY(430%);
+    left: 32%;
+    transform: translateY(380%);
 }
 .block2-pic{
     position: relative;
     width: 100%;
-    left: 15%;
+    left: 0%;
+    right: 5%;
     margin-top: 5%;
-    transform: translateY(160%);
+    transform: translateY(80%);
 }
 .lilnachos {
-    width: 37%;
+    width: 49%;
 }
 .lilpozola {
-    width: 34%;
+    width: 44%;
 }
 /* THIRD BLOCK */
 .block3{
@@ -764,14 +764,16 @@ a {
     font-size: 1.2rem;
     text-shadow: 1px 1px 2px black;
     margin-bottom: 40px;
-    margin-top: 250px;
+    margin-top: 100px;
     margin-left: -10px;
-    height: 500px;
+    background-size: cover;
+    overflow: hidden;
+    height: 300px;
 }
 .fresh {
     position: absolute;
-    left: 20%;
-    transform: translateY(160%);
+    left: -3%;
+    transform: translateY(70%);
 }
 .freshsocial{
     position: absolute;
@@ -793,23 +795,26 @@ a {
     flex-wrap: wrap;
     font-family: sans-serif;
     color: black;
+    text-align: center;
 }
 #about {
     position: absolute;
-    left: 10%;
-    font-size: 1.2rem;
-    transform: translateY(10%);
+    left: 2%;
+    font-size: 0.8rem;
+    transform: translateY(-45%);
+    color: #7a163c;
+    font-weight: bold;
 }
 .quote{
     position: absolute;
-    left: 10%;
-    transform: translateY(100%);
-    font-size: 1rem;
+    left: -7%;
+    transform: translateY(48%);
+    font-size: 0.9rem;
 }
 .share {
     position: absolute;
-    left: 30%;
-    transform: translateY(950%);
+    left: 19%;
+    transform: translateY(820%);
     color: white;
     font-size: 1rem;
     text-shadow: 1px 1px 2px black;
@@ -821,11 +826,8 @@ a {
     color: #7a163c;
 }
 .bur {
-    position: relative;
-    left: 15%;
-    top:30%;
-    width: 70%;
-}
+    overflow: hidden;
+   }
 /* FIFTH */
 .block5{
     display: flex;
@@ -836,22 +838,24 @@ a {
     color: white;
     text-align: center;
     font-family: sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-shadow: 1px 1px 2px black;
     margin-bottom: 40px;
-    margin-top: 300px;
+    margin-top: 100px;
     margin-left: -10px;
-    height: 500px;
+    background-size: cover;
+    overflow: hidden;
+    height: 300px;
 }
 .delisious {
     position: absolute;
-    left: 15%;
-    transform: translateY(160%);
+    left: 5%;
+    transform: translateY(50%);
 }
 .delsocial{
     position: absolute;
-    font-size: 1.5rem;
-    left: 20%;
+    font-size: 1.2rem;
+    left: 10%;
     text-decoration: none;
 }
 .delsocial a{
@@ -869,10 +873,11 @@ a {
     font-family: sans-serif;
     color: black;
     font-size: 1rem;
+    margin-top: -40px;
 }
 .menu{
    position: absolute;
-    left: 50%;
+    left: 40%;
     font-size: 1rem;
     color: #7a163c;
 }
@@ -883,9 +888,10 @@ a {
 }
 .table{
     font-family: sans-serif;
-    width: 100%;
-    left: 50%;
-    transform: translateY(20%);
+    width: 80%;
+    left: -4%;
+    transform: translateY(10%);
+    font-size: 0.9rem;
 }
 th {
     color: #7a163c;
@@ -909,10 +915,10 @@ th {
     font-family: sans-serif;
     background-image: url("img/gallery.jpg");
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.1rem;
     color: #7a163c;
-    margin-top: 130px;
-    height: 400px;
+    margin-top: 110px;
+    height: 300px;
     margin-left: -10px;
 }
 .gallery{
@@ -940,13 +946,13 @@ th {
     flex-wrap: wrap;
     font-family: sans-serif;
     color: black;
-    font-size: 1.2rem;
-    margin-top: 10px;
+    font-size: 1.1rem;
+    margin-top: 5px;
 }
 .location{
     position: absolute;
-    left: 45%;
-    font-size: 1.2rem;
+    left: 25%;
+    font-size: 1rem;
     color: #7a163c;
 }
 .locstars{
@@ -962,13 +968,13 @@ th {
     font-weight: lighter;
     font-style: italic;
     width: 200%;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 .frame {
     position: absolute;
     width: 100%;
-    height: 600px;
-    margin-top: 150px;
+    height: 300px;
+    margin-top: 120px;
     margin-left: -10px;
 }
 /* NINETH BLOCK */
@@ -979,23 +985,23 @@ th {
     flex-wrap: wrap;
     font-family: sans-serif;
     color: black;
-    font-size: 1.2rem;
-    margin-top: 750px;
+    font-size: 0,5rem;
+    margin-top: 420px;
     background-image: url("img/form.jpg");
     height: 500px;
     margin-left: -10px;
 }
 .contacts {
     position: absolute;
-    left: 35%;
-    font-size: 1rem;
+    left: 25%;
     color: #7a163c;
-    
+    transform: translateY(-20%);
 }
+
 .contstars{
     position: absolute;
-    width: 60%;
-    transform: translateY(-80%);
+    width: 40%;
+    transform: translateY(-130%);
     left: 20%;
 }
 .sendform {
@@ -1009,76 +1015,90 @@ th {
 }
 .firstname{
     position: absolute;
-    width: 90%;
-    height: 20%;
+    width: 0%;
+    height: 0%;
     transform: translateY(40%);
-    margin-top: 60px;
-    margin-left: -120px;
+    margin-top: 30px;
+    margin-left: -250px;
+    color: #444444;
    }
-
 .secondname{
     position: absolute;
     width: 90%;
     height: 20%;
     transform: translateY(100%);
-    margin-top: 60px;
-    margin-left: -120px;
+    margin-top: -18px;
+    margin-left: -215px;
+    color: #444444;
 } 
 .email{
     position: absolute;
     width: 90%;
     height: 20%;
-    transform: translateY(160%);
-    margin-top: 60px;
-    margin-left: -120px;
+    transform: translateY(60%);
+    margin-top: 35px;
+    margin-left: -215px;
+    clip: none;
+    color: #444444;
 } 
 .yourtext{
     position: absolute;
+    clip: none;
     width: 90%;
     height: 20%;
-    transform: translateY(240%);
-    margin-top: 60px;
-    margin-left: -120px;
+    margin-top: 6px;
+    margin-left: -222px;
+    color: #444444;
 }
 .secondname1 {
     position: absolute;
-    margin-left: 28px;
-    width: 300px;
+    margin-top: 15px;
+    border:2px solid #7a163c;
+    width: 330px;
     height: 30px;
+    transform: translateX(1%);
 }
 
 .firstname1 {
-   position: absolute;
-    margin-left: 53px;
-    width: 300px;
+    position: absolute;
+    top: 6%;
+    border:2px solid #7a163c;
+    width: 330px;
     height: 30px;
+    transform: translateX(2%);
 }
 
 .email1 {
     position: absolute;
-    margin-left: 20px;
-    width: 300px;
+    border:2px solid #7a163c;
+    width: 330px;
     height: 30px;
+    transform: translateX(3%);
 }
 
 .yourtext1 {
     position: absolute;
-    margin-left: 62px;
-    width: 300px;
+    top: 570%;
+    width: 330px;
     height: 100px;
+    transform: translateX(-10%);
+    border:2px solid #7a163c;
 }
 
 .sendbutton {
-    position: relative;
-    margin-left: 90px;
+    position: absolute;
+    top: 360%;
     width: 150px;
-    height: 30px;
+    height: 40px;
     text-align: center;
     font-family: sans-serif;
     color: white;
     font-weight: bold;
     text-shadow: 1px 1px 2px black;
-    transform: translateY(840%);
+    transform: translateX(-170%);
+    background-color: #7a163c;
+    color: white;
+    border-color: #7a163c;
 }
 
 
@@ -1091,29 +1111,23 @@ footer{
     font-family: sans-serif;
     background-image: url("img/footertwo.jpg");
     margin-left: -10px;
-    height: 640px;
-    
+    height: 580px;
 }
-
 .social {
     position: absolute;
-    left: 25%;
-    font-size: 0.8rem;
+    left: 15%;
+    font-size: 0.6rem;
     color: #7a163c;
 }
-
 .sostars {
     position: absolute;
     width: 30%;
     transform: translateY(-70%);
-    left: 30%;
+    left: 35%;
 }
-
 .icons {
     position: absolute;
-    left: 30%;
-    transform: translateY(10%);
+    left: 20%;
+    transform: translateY(5%);
 }
-
-    
 }

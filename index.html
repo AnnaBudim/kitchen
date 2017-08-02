@@ -9,7 +9,8 @@
 </head>
 <body>
     <header>
-     <div class="site-menu">
+        <div class="site-menu">
+         
         <ul class="site-menu-ul">
             <li class="site-menu-li"><a href="#banner">HOME</a></li>
             <li class="site-menu-li"><a href="#about">ABOUT US</a></li>
@@ -51,7 +52,7 @@
             <div class="quote">
                 <blockquote>"Mexican food is so full of color, life and music.<br>It's like the pinata exploding in your mouth..."
                 </blockquote>
-                <cite>Kate McLennan</cite>
+                <cite class="cite">Kate McLennan</cite>
             </div>
             <p class="share">Share on:<a href="http://facebook.com"> Facebook </a>/ <a href="http://twitter.com">Twitter</a></p>
             <div class="bur">
@@ -153,19 +154,20 @@
             <div class="contacts"><h3 id="contacts">CONTACT US</h3> 
             <img src="img/fivestars.png" alt="five stars" class="contstars"/><br></div>
             <div class="sendform">
-            <form action="https://formspree.io/20Anna08@ukr.net" method="POST" enctype="multipart/form-data">
+            <form>
                 <label class="firstname">FIRST NAME:  
-                    <input type="text" name="name" required class="firstname1"></label><br>
+                    <input type="text" name="firstname" class="firstname1" placeholder="First name" required id="firstname"></label><br>
                 <label class="secondname">SECOND NAME:
-                    <input type="text" name="name" required class="secondname1"></label><br>
+                    <input type="text" name="secondname" class="secondname1" placeholder="Second name" required id="secondname"></label><br>
                 <label class="email">E-MAIL ADRESS:
-                    <input type="text" name="name" required class="email1"></label><br>
+                    <input type="text" name="email" class="email1" placeholder="Email" required id="email"></label><br>
                 <label class="yourtext">YOUR TEXT:
-                    <textarea rows="4" cols="50" placeholder="Type your text here" class="yourtext1"></textarea>
+                    <textarea name="comment" rows="4" cols="50" placeholder="Type your text here" class="yourtext1" required id="comment"></textarea>
                 </label><br>
                 <label>
                     <input type="submit" value="Send" class="sendbutton"></label>
             </form></div>
+             <div id="form-result"></div>
         </article>
     </main>
     <footer>
@@ -178,5 +180,12 @@
             <a href="http://twitter.com" target="_blank"><img src="img/twitter.png" alt="twitter"/></a>
         </figure>
     </footer></div>
+ 
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="application.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 </body>    
 </html>
