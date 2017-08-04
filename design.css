@@ -2729,7 +2729,7 @@ th {
     font-size: 0,5rem;
     margin-top: 420px;
     background-image: url("img/form.jpg");
-    height: 520px;
+    height: 480px;
     margin-left: -10px;
 }
 .contacts {
@@ -2746,21 +2746,21 @@ th {
     left: 20%;
 }
 .sendform {
-    position: absolute;
+    
     opacity: 0.5;
     left: 30%;
     font-family: sans-serif;
     color: white;
     font-weight: bold;
-    transform: translateY(40%);
+    transform: translateY(70%);
 }
 .firstname{
     position: absolute;
     width: 0%;
     height: 0%;
-    transform: translateY(40%);
-    margin-top: 30px;
-    margin-left: -250px;
+    transform: translateY(50%);
+    margin-top: 40px;
+    margin-left: -260px;
     color: #444444;
    }
 .secondname{
@@ -2768,8 +2768,8 @@ th {
     width: 90%;
     height: 20%;
     transform: translateY(100%);
-    margin-top: -18px;
-    margin-left: -215px;
+    margin-top: -22px;
+    margin-left: -210px;
     color: #444444;
 } 
 .email{
@@ -2778,7 +2778,7 @@ th {
     height: 20%;
     transform: translateY(60%);
     margin-top: 35px;
-    margin-left: -215px;
+    margin-left: -150px;
     clip: none;
     color: #444444;
 } 
@@ -2793,39 +2793,40 @@ th {
 }
 .secondname1 {
     position: absolute;
-    margin-top: 15px;
+    margin-top: 40px;
     border:2px solid #7a163c;
     width: 300px;
     height: 30px;
-    transform: translateX(4.5%);
+    transform: translateX(25.5%);
 }
 
 .firstname1 {
     position: absolute;
-    top: 6%;
+    top: 9%;
     border:2px solid #7a163c;
     width: 300px;
     height: 30px;
-    transform: translateX(5%);
+    transform: translateX(35%);
 }
 .email1 {
     position: absolute;
+    top: 510%;
     border:2px solid #7a163c;
     width: 300px;
     height: 30px;
-    transform: translateX(7.5%);
+    transform: translateX(-35%);
 }
 .yourtext1 {
     position: absolute;
-    top: 570%;
+    top: 630%;
     width: 300px;
     height: 100px;
-    transform: translateX(-9%);
+    transform: translateX(20%);
     border:2px solid #7a163c;
 }
 .sendbutton {
     position: absolute;
-    top: 360%;
+    top: 460%;
     width: 150px;
     height: 40px;
     text-align: center;
@@ -2833,7 +2834,7 @@ th {
     color: white;
     font-weight: bold;
     text-shadow: 1px 1px 2px black;
-    transform: translateX(-210%);
+    transform: translateX(-100%);
     background-color: #7a163c;
     color: white;
     border-color: #7a163c;
