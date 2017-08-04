@@ -2643,7 +2643,7 @@ th {
     width: 130%;
     flex-wrap: wrap;
     text-align: center;
-    transform: translateY(25%);
+    transform: translateY(30%);
     left: -15%;
 }
 #switch1:checked ~ #controls label:nth-child(5), 
