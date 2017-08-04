@@ -1,3 +1,8 @@
+ 
+ 
+ 
+ 
+ 
 $(function() {
     $('form input[type=submit]').click(sendForm);
 })

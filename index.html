@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Fiesta Mexican Restaurant</title>
+   
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="design.css">
-</head>
+    
 <body>
     <header>
         <div class="site-menu">
@@ -70,17 +71,17 @@
             <img src="img/fivestars.png" alt="five stars" class="starsmenu"/> </div>
             <div class="table">
                 <table>
-                    <tr style="border:1px solid black;">
+                    <tr>
                        <th>STARTER</th> 
                        <th>PRICE</th> 
                        <th>MAINS</th> 
                        <th>PRICE</th>  
                     </tr>
                     <tr>
-                        <td><b>Caesar Roll</b></td> 
-                        <td></td> 
-                        <td><b>Tacos</b></td> 
-                        <td></td> 
+                        <td class="coloredrow"><b>Caesar Roll</b></td> 
+                        <td class="coloredrow"></td> 
+                        <td class="coloredrow"><b>Tacos</b></td> 
+                        <td class="coloredrow"></td> 
                     </tr>
                     <tr>
                        <td><i>Salad with chicken, grilled in Mexican format, served with fries-potato.</i></td> 
@@ -89,10 +90,10 @@
                        <td>95₴</td> 
                     </tr>
                     <tr>
-                       <td><b>Cactus Salad</b></td>
-                       <td></td>
-                       <td><b>Gazpacho</b></td>
-                       <td></td>
+                       <td class="coloredrow"><b>Cactus Salad</b></td>
+                       <td class="coloredrow"></td>
+                       <td class="coloredrow"><b>Gazpacho</b></td>
+                       <td class="coloredrow"></td>
                     </tr>
                     <tr>
                         <td><i>Marinated cactus, veal fillet, mushrooms and potatoes with chef's sauce.</i></td>
@@ -101,10 +102,10 @@
                         <td>105₴</td>
                     </tr>
                     <tr>
-                        <td><b>Nachos</b></td>
-                        <td></td>
-                        <td><b>Pozola</b></td>
-                        <td></td>
+                        <td class="coloredrow"><b>Nachos</b></td>
+                        <td class="coloredrow"></td>
+                        <td class="coloredrow"><b>Pozola</b></td>
+                        <td class="coloredrow"></td>
                     </tr>
                     <tr>
                         <td><i>Corn chips with guacomolee sauce and tomato salsa.</i></td>
@@ -115,8 +116,8 @@
                     <tr>
                         <td></td>
                         <td></td>
-                        <td><b>Burrito</b></td>
-                        <td></td>
+                        <td class="coloredrow"><b>Burrito</b></td>
+                        <td class="coloredrow"></td>
                     </tr>
                     <tr>
                         <td></td>
@@ -127,8 +128,8 @@
                     <tr>
                         <td></td>
                         <td></td>
-                        <td><b>Fajito</b></td>
-                        <td></td>
+                        <td class="coloredrow"><b>Fajito</b></td>
+                        <td class="coloredrow"></td>
                     </tr>
                     <tr>
                         <td></td>
@@ -142,7 +143,41 @@
         <article class="block7">
             <div class="gallery"><h4 id="gallery">OUR GALLERY</h4>
             <img src="img/fivestars.png" alt="five stars" class="galstars"/></div>
-            <img src="img/cisar.png" alt="cisar roll" class="firstrow"/>
+            <div class="all">
+                <input checked type="radio" name="respond" id="desktop">
+                	<article id="slider">
+                			<input checked type="radio" name="slider" id="switch1">
+                			<input type="radio" name="slider" id="switch2">
+                			<input type="radio" name="slider" id="switch3">
+                			<input type="radio" name="slider" id="switch4">
+                			<input type="radio" name="slider" id="switch5">
+                        <div id="slides">
+                        <div id="overflow">
+                        <div class="image">
+                        	<article><img src="img/slider1.jpg"></article>
+                        	<article><img src="img/slider2.jpg"></article>
+                        	<article><img src="img/slider3.jpg"></article>
+                        	<article><img src="img/slider4.jpg"></article>
+                            <article><img src="img/slider5.jpg"></article>
+                        </div>
+                        </div>
+                        </div>
+                    <div id="controls">
+                    	<label for="switch1"></label>
+                    	<label for="switch2"></label>
+                    	<label for="switch3"></label>
+                    	<label for="switch4"></label>
+                    	<label for="switch5"></label>
+                    </div>
+                    <div id="active">
+                    	<label for="switch1"></label>
+                    	<label for="switch2"></label>
+                    	<label for="switch3"></label>
+                    	<label for="switch4"></label>
+                    	<label for="switch5"></label>
+                    </div>
+                </article>
+            </div>
         </article>
         <article class="block8">
             <div class="location"><h3>OUR LOCATION</h3>
@@ -181,10 +216,11 @@
         </figure>
     </footer></div>
  
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.min.js"
-      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-      crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
     <script type="text/javascript" src="application.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
 </body>    
