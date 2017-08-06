@@ -16,7 +16,6 @@ nav{
     list-style-position: inside;
     flex-wrap: wrap;
     align-items: flex-start;
-    
 }
 body {
     max-width: 1500px;
@@ -56,7 +55,6 @@ body {
     top: 90%;
     left: 0;
     transition: .5s;
-    
 }
 .site-menu-li a::after{
     opacity: 1.7;
@@ -68,7 +66,6 @@ body {
     top: 90%;
     right: 0;
     transition: .5s;
-    
 }
 .site-menu-li:hover{
     opacity: 1.7;
@@ -135,7 +132,6 @@ a {
     height: 30%;
     text-shadow: none;
 }
-
 /*BLOCK 2*/
 .block2{
     display: flex;
@@ -174,11 +170,79 @@ a {
     background-color: #7a163c;
     color: white;
     width: 100px;
-    height: 20px;
+    height: 40px;
     text-align: center;
     padding: 10px;
-    left: 17%;
-    transform: translateY(560%);
+    left: 18%;
+    transform: translateY(540%);
+    border: none;
+}
+.b-popup{
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+    z-index: 100;
+}
+.discount{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #7a163c;
+    text-align: center;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 1px #898e8b;
+}
+.oldprice{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #af2a0f;
+    text-decoration:line-through;
+    text-shadow: 1px 1px 1px #898e8b;
+}
+.title{
+    color: #1a6037; 
+    text-align: center;
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 1px #898e8b;
+}
+.discountcolor{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #7a163c;
+    text-align: center;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 1px #898e8b;
+}
+.hide{
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #7a163c;
+    color: white;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+.lilpozola1, .lilnachos1{
+    width: 30%;
+    margin-top: -45%;
+    margin-left: 5%;
+    box-shadow: 0px 0px 10px #1a6037;
+    
+}
+.b-popup .b-popup-content{
+    position: relative;
+    margin:40px auto 0px auto;
+    width:500px;
+    height: 470px;
+    padding:10px;
+    background-color: #f9eff5;
+    box-shadow: 0px 0px 10px #000;
 }
 .block2-pic{
     position: absolute;
@@ -2282,7 +2346,6 @@ nav{
     list-style-position: inside;
     flex-wrap: wrap;
     align-items: flex-start;
-    
 }
 body {
     max-width: 360px;
@@ -2290,7 +2353,6 @@ body {
     margin: 0 auto;
     font-family: sans-serif;
     font-size: 0.7em;
-
 }
 .site-menu{
     background-color: white;
@@ -2377,18 +2439,18 @@ a {
     position: absolute;
     font-size: 1.4rem;
     transform: translateY(580%);
-    left: 10%;
+    left: 14%;
 }
 .combination {
     position: absolute;
     font-size: 2.1rem;
     font-style: italic;
     font-weight: bold;
-    left: 8%;
+    left: 10%;
     transform: translateY(440%);
 }
 .traditional {
-    left: 6%;
+    left: 8%;
     position: absolute;
     font-size: 0.9rem;
     transform: translateY(1300%);
@@ -2402,11 +2464,9 @@ a {
     padding: 12px;
     transform: translateY(800%); 
     width: 80%;
-    height: 30%;
+    height: 35%;
     text-shadow: none;
-   
 }
-
 /*BLOCK 2*/
 .block2{
     display: flex;
@@ -2446,11 +2506,11 @@ a {
     background-color: #7a163c;
     color: white;
     width: 100px;
-    height: 20px;
+    height: 40px;
     text-align: center;
     padding: 10px;
-    left: 32%;
-    transform: translateY(380%);
+    left: 35%;
+    transform: translateY(400%);
 }
 .block2-pic{
     position: relative;
@@ -2509,22 +2569,22 @@ a {
 }
 #about {
     position: absolute;
-    left: 2%;
-    font-size: 0.8rem;
+    left: 3%;
+    font-size: 0.9rem;
     transform: translateY(-15%);
     color: #7a163c;
     font-weight: bold;
 }
 .quote{
     position: absolute;
-    left: -7%;
+    left: -4%;
     transform: translateY(48%);
-    font-size: 0.9rem;
+    font-size: 0.95rem;
 }
 .share {
     position: absolute;
-    left: 19%;
-    transform: translateY(980%);
+    left: 20%;
+    transform: translateY(1000%);
     color: white;
     font-size: 0.9rem;
     text-shadow: 1px 1px 2px black;
@@ -2579,7 +2639,8 @@ a {
     font-family: sans-serif;
     color: black;
     font-size: 1rem;
-    transform: translateY(-12%);
+    transform: translateY(-22%);
+    height: 500px;
 }
 .menu{
    position: absolute;
@@ -2594,9 +2655,9 @@ a {
 }
 .table{
     font-family: sans-serif;
-    width: 90%;
+    width: 97%;
     left: -4%;
-    transform: translateY(10%);
+    transform: translateY(14%);
     font-size: 0.9rem;
 }
 th {
@@ -2604,7 +2665,6 @@ th {
     top: 10%;
     font-size: 0.85rem;
 }
-
 /* SEVENTH BLOCK */
 .block7{
     display: flex;
@@ -2637,7 +2697,7 @@ th {
    left: 35%;
    width: 40%;
   }
-#slider { /*положение слайдера*/
+#slider { 
     display: flex;
     position: relative;
     width: 130%;
@@ -2651,33 +2711,32 @@ th {
 #switch3:checked ~ #controls label:nth-child(2),
 #switch4:checked ~ #controls label:nth-child(3),
 #switch5:checked ~ #controls label:nth-child(4){
-	background: url('prev.png') no-repeat; /*заливка фона картинкой без повторений*/
+	background: url('prev.png') no-repeat; 
 	float: left;
-	margin: 0 0 0 -24px; /*сдвиг влево*/
+	margin: 0 0 0 -24px; 
 	display: none;
 	width: 10%;
 	height: 100%;
 }
-/*настройка переключения и положения для правой стрелки*/
 #switch1:checked ~ #controls label:nth-child(2), 
 #switch2:checked ~ #controls label:nth-child(3),
 #switch3:checked ~ #controls label:nth-child(4),
 #switch4:checked ~ #controls label:nth-child(5),
 #switch5:checked ~ #controls label:nth-child(1){
-	background: url('next.png') no-repeat; /*заливка фона картинкой без повторений*/
+	background: url('next.png') no-repeat; 
 	float: right;
-	margin: 0 -24px 0 0; /*сдвиг вправо*/
+	margin: 0 -24px 0 0; 
 	display: none;
 	width: 10%;
 	height: 100%;
 }
-#active{ /*расположение блока с переключателями*/
+#active{ 
 	margin-top: 2%;
 	margin-left: 40%;
 	text-align: center;
 }
-#desktop:checked ~ #slider{ /*размер всего слайдера*/
-	max-width: 150%; /*максимальнная длинна*/
+#desktop:checked ~ #slider{ 
+	max-width: 150%; 
 }
 /* EIGHTH BLOCK */
 .block8{
@@ -2729,7 +2788,7 @@ th {
     font-size: 0,5rem;
     margin-top: 420px;
     background-image: url("img/form.jpg");
-    height: 480px;
+    height: 450px;
     margin-left: -10px;
 }
 .contacts {
@@ -2738,15 +2797,13 @@ th {
     color: #7a163c;
     transform: translateY(-20%);
 }
-
 .contstars{
     position: absolute;
     width: 40%;
     transform: translateY(-130%);
-    left: 20%;
+    left: 30%;
 }
 .sendform {
-    
     opacity: 0.5;
     left: 30%;
     font-family: sans-serif;
@@ -2819,14 +2876,14 @@ th {
 .yourtext1 {
     position: absolute;
     top: 630%;
-    width: 300px;
+    width: 297px;
     height: 100px;
     transform: translateX(20%);
     border:2px solid #7a163c;
 }
 .sendbutton {
     position: absolute;
-    top: 460%;
+    top: 440%;
     width: 150px;
     height: 40px;
     text-align: center;
@@ -2834,7 +2891,7 @@ th {
     color: white;
     font-weight: bold;
     text-shadow: 1px 1px 2px black;
-    transform: translateX(-100%);
+    transform: translateX(-80%);
     background-color: #7a163c;
     color: white;
     border-color: #7a163c;
