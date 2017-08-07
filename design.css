@@ -827,18 +827,18 @@ a {
     position: absolute;
     font-size: 2rem;
     transform: translateY(280%);
-    left: 28%;
+    left: 22%;
 }
 .combination {
     position: absolute;
     font-size: 3rem;
     font-style: italic;
     font-weight: bold;
-    left: 27%;
+    left: 21%;
     transform: translateY(240%);
 }
 .traditional {
-    left: 25%;
+    left: 17%;
     position: absolute;
     font-size: 1.5rem;
     transform: translateY(670%);
@@ -868,7 +868,7 @@ a {
     font-weight: bold;
     color: black;
     font-size: 1.8rem;
-    left: 40%;
+    left: 35%;
     transform: translateY(17%);
 }
 .dealstars {
@@ -883,8 +883,8 @@ a {
     font-family: sans-serif;
     text-align: center;
     color: black;
-    left: 30%;
-    transform: translateY(220%);
+    left: 26%;
+    transform: translateY(210%);
     font-size: 1.6rem;
 }
 .menubutton {
@@ -894,10 +894,10 @@ a {
     background-color: #7a163c;
     color: white;
     width: 100px;
-    height: 20px;
+    height: 40px;
     text-align: center;
     padding: 10px;
-    left: 47%;
+    left: 43%;
     transform: translateY(560%);
 }
 .block2-pic{
@@ -905,7 +905,7 @@ a {
 }
 /* THIRD BLOCK */
 .block3{
-   display: flex;
+    display: flex;
     position: relative;
     width: 100%;
     flex-wrap: wrap;
@@ -919,10 +919,11 @@ a {
     margin-top: 300px;
     margin-left: -10px;
     height: 500px;
+    background-size: cover;
 }
 .fresh {
     position: absolute;
-    left: 20%;
+    left: 5%;
     transform: translateY(160%);
 }
 .freshsocial{
@@ -993,10 +994,11 @@ a {
     margin-top: 300px;
     margin-left: -10px;
     height: 500px;
+    background-size: cover;
 }
 .delisious {
     position: absolute;
-    left: 25%;
+    left: 15%;
     transform: translateY(160%);
 }
 .delsocial{
@@ -1038,7 +1040,7 @@ table{
 }
 .table{
     font-family: sans-serif;
-    width: 100%;
+    width: 89%;
     left: 50%;
     transform: translateY(25%);
 }
@@ -1080,7 +1082,7 @@ th {
 .firstrow{
    position: absolute; 
    transform: translateY(30%);
-   left: 30%;
+   left: 25%;
    width: 40%;
   }
 #slider { 
@@ -1119,7 +1121,7 @@ article img{
 #switch5:checked ~ #controls label:nth-child(4){
 	background: url('prev.png') no-repeat; 
 	float: left;
-	margin: 0 0 0 -84px;
+	margin: 0 0 0 -24px;
 	display: block;
 	height: 68px;
 	width: 68px;
@@ -1131,7 +1133,7 @@ article img{
 #switch5:checked ~ #controls label:nth-child(1){
 	background: url('next.png') no-repeat;
 	float: right;
-	margin: 0 -84px 0 0;
+	margin: 0 -24px 0 0;
 	display: block;
 	height: 68px;
 	width: 68px;
@@ -1250,7 +1252,7 @@ label, a{
 }
 .contacts {
     position: absolute;
-    left: 45%;
+    left: 40%;
     color: #7a163c;
 }
 .contstars{
@@ -1274,6 +1276,7 @@ label, a{
     height: 20%;
     transform: translateY(40%);
     margin-top: 30px;
+    left: 2%;
    }
 .secondname{
     position: absolute;
@@ -1281,6 +1284,7 @@ label, a{
     height: 20%;
     transform: translateY(100%);
     margin-top: 30px;
+    left: 2%;
 } 
 .email{
     position: absolute;
@@ -1288,6 +1292,7 @@ label, a{
     height: 20%;
     transform: translateY(160%);
     margin-top: 30px;
+    left: 2%;
 } 
 .yourtext{
     position: absolute;
@@ -1295,34 +1300,35 @@ label, a{
     height: 20%;
     transform: translateY(240%);
     margin-top: 30px;
+    left: 2%;
 }
 .secondname1 {
     position: absolute;
-    margin-left: 119px;
+    margin-left: 95px;
     width: 350px;
     height: 30px;
 }
 .firstname1 {
    position: absolute;
-    margin-left: 152px;
+    margin-left: 128px;
     width: 350px;
     height: 30px;
 }
 .email1 {
     position: absolute;
-    margin-left: 109px;
+    margin-left: 86px;
     width: 350px;
     height: 30px;
 }
 .yourtext1 {
     position: absolute;
-    margin-left: 164px;
+    margin-left: 139px;
     width: 350px;
     height: 100px;
 }
 .sendbutton {
     position: relative;
-    margin-left: 320px;
+    margin-left: 315px;
     width: 150px;
     height: 40px;
     text-align: center;
@@ -1352,7 +1358,7 @@ footer{
 }
 .social {
     position: absolute;
-    left: 35%;
+    left: 30%;
     color: #7a163c;
 }
 .sostars {
@@ -1363,7 +1369,7 @@ footer{
 }
 .icons {
     position: absolute;
-    left: 20%;
+    left: 15%;
     transform: translateY(30%);
 }
 }
