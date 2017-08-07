@@ -1798,7 +1798,7 @@ table{
 }
 .table{
     font-family: sans-serif;
-    width: 100%;
+    width: 80%;
     left: 50%;
     transform: translateY(20%);
 }
@@ -2036,7 +2036,6 @@ label, a{
     transform: translateY(40%);
     margin-top: 30px;
    }
-
 .secondname{
     position: absolute;
     width: 50%;
@@ -2327,7 +2326,6 @@ body {
     top: 90%;
     left: 0;
     transition: .5s;
-    
 }
 .site-menu-li a::after{
     opacity: 1.7;
@@ -2339,7 +2337,6 @@ body {
     top: 90%;
     right: 0;
     transition: .5s;
-    
 }
 .site-menu-li:hover{
     opacity: 1.7;
